@@ -18,7 +18,7 @@ class App extends Component {
     const dot_txt = await response.text();
 
     this.setState({dot_txt: dot_txt});
-    console.log(dot_txt)
+    // console.log(dot_txt)
   }
 
   render() {
